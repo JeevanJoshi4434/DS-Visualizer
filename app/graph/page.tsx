@@ -9,7 +9,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Switch } from "@/components/ui/switch"
 import { Label } from "@/components/ui/label"
 import { Input } from "@/components/ui/input"
-import { Play, Pause, SkipForward, SkipBack, RefreshCw, Trash2 } from "lucide-react"
+import { Play, Pause, SkipForward, SkipBack, RefreshCw, Trash2, GithubIcon, Star, GitBranch } from "lucide-react"
 import GraphCanvas from "@/components/graph-canvas"
 import TreeCanvas from "@/components/tree-canvas"
 import type { GraphAlgorithm, TreeAlgorithm } from "@/lib/algorithm-types"
@@ -229,7 +229,7 @@ export default function GraphPage() {
       <Card className="mb-6">
         <CardHeader>
           <CardTitle>Graph & Tree Algorithm Visualizer</CardTitle>
-          <CardDescription>Create graphs and trees, then visualize algorithms step by step</CardDescription>
+          <CardDescription className="flex items-center justify-between">Create graphs and trees, then visualize algorithms step by step  <a target="_blank" href="https://github.com/JeevanJoshi4434/DS-Visualizer.git" className="text-purple-500 flex items-center p-1 bg-purple-100/20 hover:bg-purple-50 border border-purple-500 w-fit rounded-md"><Star /><GithubIcon /></a> </CardDescription>
         </CardHeader>
       </Card>
 
