@@ -429,6 +429,7 @@ export default function GraphPage() {
                       <li>Drag from one vertex to another to create an edge</li>
                       <li>Use the buttons above to select source/destination or mark vertices as visited</li>
                       <li>Right-click on vertex/edge to delete it</li>
+                      <li>For visualization it is <span className="font-bold">Mandatory to Mark Source (and Destination if applicable)</span> using Mark Source/Dest button. </li>
                     </ul>
                   </div>
 
